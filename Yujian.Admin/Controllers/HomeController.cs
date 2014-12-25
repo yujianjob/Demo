@@ -29,7 +29,11 @@ namespace Yujian.Admin.Controllers
             }
             return View();
         }
-
+        /// <summary>
+        /// 呵呵
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public ActionResult Index(int? id = 1)
         {
             if (Session["Login"] == null)
