@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
+  </configSections>
+  <log4net>
+    <!--缺省日志记录器的3个Appender-->
+    <appender name="RollingFileAppender_DefaultLogger.Debug" type="log4net.Appender.RollingFileAppender">
+        <file value="logs\debug.log" />
+        <appendToFile value="true" />
+        <rollingStyle value="Size" />
+        <maxSizeRollBackups value="10" />
+        <maximumFileSize value="1000KB" />
+        <staticLogFileName value="true" />
+        <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="&lt;Log>%newline&lt;Date>%date{yyyy-MM-dd HH:mm:ss fff}&lt;/Date>%newline&lt;Client_ID>%property{ClientID}&lt;/Client_ID>%newline&lt;User_ID>%property{UserID}&lt;/User_ID>%newline&lt;Location>%property{Location}&lt;/Location>%newline%message%newline&lt;/Log>%newline%newline" />
+      </layout>
+    </appender>
+    <appender name="RollingFileAppender_DefaultLogger.Database" type="log4net.Appender.RollingFileAppender">
+        <file value="logs\database.log" />
+        <appendToFile value="true" />
+        <rollingStyle value="Size" />
+        <maxSizeRollBackups value="10" />
+        <maximumFileSize value="100KB" />
+        <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="&lt;Log>%newline&lt;Date>%date{yyyy-MM-dd HH:mm:ss fff}&lt;/Date>%newline&lt;Client_ID>%property{ClientID}&lt;/Client_ID>%newline&lt;User_ID>%property{UserID}&lt;/User_ID>%newline&lt;Location>%property{Location}&lt;/Location>%newline%message%newline&lt;/Log>%newline%newline" />
+      </layout>
+    </appender>
+    <appender name="RollingFileAppender_DefaultLogger.Exception" type="log4net.Appender.RollingFileAppender">
+        <file value="logs\exception.log" />
+        <appendToFile value="true" />
+        <rollingStyle value="Size" />
+        <maxSizeRollBackups value="10" />
+        <maximumFileSize value="100KB" />
+        <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="&lt;Log>%newline&lt;Date>%date{yyyy-MM-dd HH:mm:ss fff}&lt;/Date>%newline&lt;Client_ID>%property{ClientID}&lt;/Client_ID>%newline&lt;User_ID>%property{UserID}&lt;/User_ID>%newline&lt;Location>%property{Location}&lt;/Location>%newline%message%newline&lt;/Log>%newline%newline" />
+      </layout>
+    </appender>
+    <!--自定义的日志消息可视化呈现-->
+    <renderer renderingClass="Yunchee.Volkswagen.Utility.Log.DatabaseLogInfoRenderer,Yunchee.Volkswagen.Utility" renderedClass="Yunchee.Volkswagen.Utility.Log.DatabaseLogInfo,Yunchee.Volkswagen.Utility" />
+    <renderer renderingClass="Yunchee.Volkswagen.Utility.Log.DebugLogInfoRenderer,Yunchee.Volkswagen.Utility" renderedClass="Yunchee.Volkswagen.Utility.Log.DebugLogInfo,Yunchee.Volkswagen.Utility" />
+    <renderer renderingClass="Yunchee.Volkswagen.Utility.Log.ExceptionLogInfoRenderer,Yunchee.Volkswagen.Utility" renderedClass="Yunchee.Volkswagen.Utility.Log.ExceptionLogInfo,Yunchee.Volkswagen.Utility" />
+    <!--日志记录器的根-->
+    <root>
+      <level value="ALL" />
+    </root>
+    <!--默认日志记录器-->
+    <logger name="DefaultLogger.Debug">
+      <level value="ALL" />
+      <appender-ref ref="RollingFileAppender_DefaultLogger.Debug"/>
+    </logger>
+    <logger name="DefaultLogger.Database">
+      <level value="ALL" />
+      <appender-ref ref="RollingFileAppender_DefaultLogger.Database"/>
+    </logger>
+    <logger name="DefaultLogger.Exception">
+      <level value="ALL" />
+      <appender-ref ref="RollingFileAppender_DefaultLogger.Exception"/>
+      <appender-ref ref="SmtpAppender"/>
+    </logger>
+  </log4net>
+</configuration>

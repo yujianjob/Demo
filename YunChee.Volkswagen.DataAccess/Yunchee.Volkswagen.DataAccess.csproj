@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{97DF27B4-414D-4671-B5F4-93BF711BB9D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yunchee.Volkswagen.DataAccess</RootNamespace>
+    <AssemblyName>Yunchee.Volkswagen.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\PagedQuery.cs" />
+    <Compile Include="BasicDataDAO.cs" />
+    <Compile Include="BuyCarCalculationDAO.cs" />
+    <Compile Include="CarBrandDAO.cs" />
+    <Compile Include="CarStyleAirConditioningDAO.cs" />
+    <Compile Include="CarStyleBasicDAO.cs" />
+    <Compile Include="CarStyleBodyDAO.cs" />
+    <Compile Include="CarStyleChassisBrakeDAO.cs" />
+    <Compile Include="CarStyleCommunicationDAO.cs" />
+    <Compile Include="CarStyleDAO.cs" />
+    <Compile Include="CarStyleDoorWindowDAO.cs" />
+    <Compile Include="CarStyleDrivingAuxiliaryDAO.cs" />
+    <Compile Include="CarStyleEngineDAO.cs" />
+    <Compile Include="CarStyleGearboxDAO.cs" />
+    <Compile Include="CarStyleInternalConfigDAO.cs" />
+    <Compile Include="CarStyleLamplightDAO.cs" />
+    <Compile Include="CarStyleMaintenanceProjectDAO.cs" />
+    <Compile Include="CarStyleSeatDAO.cs" />
+    <Compile Include="CarStyleSecurityConfigDAO.cs" />
+    <Compile Include="CarStyleViewLogDAO.cs" />
+    <Compile Include="CarStyleWheelDAO.cs" />
+    <Compile Include="CarTypeDAO.cs" />
+    <Compile Include="CarTypeFeatureDAO.cs" />
+    <Compile Include="ClientDAO.cs" />
+    <Compile Include="ClientMenusDAO.cs" />
+    <Compile Include="ClientPowersDAO.cs" />
+    <Compile Include="CodeGeneration\BasicDataDAO.cs" />
+    <Compile Include="CodeGeneration\BuyCarCalculationDAO.cs" />
+    <Compile Include="CodeGeneration\CarBrandDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleAirConditioningDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleBasicDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleBodyDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleChassisBrakeDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleCommunicationDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleDoorWindowDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleDrivingAuxiliaryDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleEngineDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleGearboxDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleInternalConfigDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleLamplightDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleMaintenanceProjectDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleSeatDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleSecurityConfigDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleViewLogDAO.cs" />
+    <Compile Include="CodeGeneration\CarStyleWheelDAO.cs" />
+    <Compile Include="CodeGeneration\CarTypeDAO.cs" />
+    <Compile Include="CodeGeneration\CarTypeFeatureDAO.cs" />
+    <Compile Include="CodeGeneration\ClientDAO.cs" />
+    <Compile Include="CodeGeneration\ClientMenusDAO.cs" />
+    <Compile Include="CodeGeneration\ClientPowersDAO.cs" />
+    <Compile Include="CodeGeneration\ComplainAndSuggestDAO.cs" />
+    <Compile Include="CodeGeneration\ConfigsDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryApplyDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryGameAwardsDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryGameMappingDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryLabelDAO.cs" />
+    <Compile Include="CodeGeneration\ContentLibraryVoteMappingDAO.cs" />
+    <Compile Include="CodeGeneration\ContentScenarioConfigDAO.cs" />
+    <Compile Include="CodeGeneration\ContentScenarioDAO.cs" />
+    <Compile Include="CodeGeneration\ContentTypeDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerCarStyleCompareDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerCarStyleDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerEventChannelDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerLabelCategoryDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerLabelDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerOperationLogDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerPlateNumberDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerRequestRecordDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerShareLogDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerShareMappingDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerSubscribeLogDAO.cs" />
+    <Compile Include="CodeGeneration\CustomerViolationRecordDAO.cs" />
+    <Compile Include="CodeGeneration\EventApplyDAO.cs" />
+    <Compile Include="CodeGeneration\EventApplyResultDAO.cs" />
+    <Compile Include="CodeGeneration\EventChannelDAO.cs" />
+    <Compile Include="CodeGeneration\EventChannelQrcodeDAO.cs" />
+    <Compile Include="CodeGeneration\EventDAO.cs" />
+    <Compile Include="CodeGeneration\EventGameAwardsDAO.cs" />
+    <Compile Include="CodeGeneration\EventGameMappingDAO.cs" />
+    <Compile Include="CodeGeneration\EventGameResultDAO.cs" />
+    <Compile Include="CodeGeneration\EventLabelDAO.cs" />
+    <Compile Include="CodeGeneration\EventVoteMappingDAO.cs" />
+    <Compile Include="CodeGeneration\GameAwardsDAO.cs" />
+    <Compile Include="CodeGeneration\GameDAO.cs" />
+    <Compile Include="CodeGeneration\InformationDAO.cs" />
+    <Compile Include="CodeGeneration\InformationTypeDAO.cs" />
+    <Compile Include="CodeGeneration\LabelCategoryConfigDAO.cs" />
+    <Compile Include="CodeGeneration\LabelCategoryDAO.cs" />
+    <Compile Include="CodeGeneration\LabelDAO.cs" />
+    <Compile Include="CodeGeneration\LabelTypeDAO.cs" />
+    <Compile Include="CodeGeneration\MaintenanceOrderDAO.cs" />
+    <Compile Include="CodeGeneration\MaintenanceOrderDetailDAO.cs" />
+    <Compile Include="CodeGeneration\MenusDAO.cs" />
+    <Compile Include="CodeGeneration\MessageRemindDAO.cs" />
+    <Compile Include="CodeGeneration\ObjectImagesDAO.cs" />
+    <Compile Include="CodeGeneration\PowersDAO.cs" />
+    <Compile Include="CodeGeneration\PropertyDAO.cs" />
+    <Compile Include="CodeGeneration\PropertyLookupDAO.cs" />
+    <Compile Include="CodeGeneration\PropertyValueDAO.cs" />
+    <Compile Include="CodeGeneration\QuesAnswerDAO.cs" />
+    <Compile Include="CodeGeneration\QuesOptionDAO.cs" />
+    <Compile Include="CodeGeneration\QuesQuestionDAO.cs" />
+    <Compile Include="CodeGeneration\QuestionnaireDAO.cs" />
+    <Compile Include="CodeGeneration\RedeemCodeCustomerDAO.cs" />
+    <Compile Include="CodeGeneration\RedeemCodeDAO.cs" />
+    <Compile Include="CodeGeneration\RegionDAO.cs" />
+    <Compile Include="CodeGeneration\RepairOrderDAO.cs" />
+    <Compile Include="CodeGeneration\RolePowersDAO.cs" />
+    <Compile Include="CodeGeneration\RolesDAO.cs" />
+    <Compile Include="CodeGeneration\RoleUsersDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceAskPriceDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceConfigDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceConsultDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceCustomerMappingDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceImageDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceKeywordReplyDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceLastAcceptDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceLinkDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceLocationDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceSessionInfoDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceTextDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceTransferLogDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceVideoDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceVoiceDAO.cs" />
+    <Compile Include="CodeGeneration\ServiceWaitQueueDAO.cs" />
+    <Compile Include="CodeGeneration\SystemNoticeDAO.cs" />
+    <Compile Include="CodeGeneration\TestDriveOrderDAO.cs" />
+    <Compile Include="CodeGeneration\UsersDAO.cs" />
+    <Compile Include="CodeGeneration\ViolationCityDAO.cs" />
+    <Compile Include="CodeGeneration\ViolationProvinceDAO.cs" />
+    <Compile Include="CodeGeneration\ViolationQueryLogDAO.cs" />
+    <Compile Include="CodeGeneration\VoteDAO.cs" />
+    <Compile Include="CodeGeneration\VoteOptionDAO.cs" />
+    <Compile Include="CodeGeneration\VoteResultDAO.cs" />
+    <Compile Include="CodeGeneration\WApplicationDAO.cs" />
+    <Compile Include="CodeGeneration\WAutoReplyDAO.cs" />
+    <Compile Include="CodeGeneration\WKeywordRecordDAO.cs" />
+    <Compile Include="CodeGeneration\WKeywordReplyDAO.cs" />
+    <Compile Include="CodeGeneration\WMassSendRecordDAO.cs" />
+    <Compile Include="CodeGeneration\WMenuDAO.cs" />
+    <Compile Include="CodeGeneration\WNewsDAO.cs" />
+    <Compile Include="CodeGeneration\WNewsMappingDAO.cs" />
+    <Compile Include="CodeGeneration\WSubscriptionReplyDAO.cs" />
+    <Compile Include="ComplainAndSuggestDAO.cs" />
+    <Compile Include="ConfigsDAO.cs" />
+    <Compile Include="ContentLibraryApplyDAO.cs" />
+    <Compile Include="ContentLibraryDAO.cs" />
+    <Compile Include="ContentLibraryGameAwardsDAO.cs" />
+    <Compile Include="ContentLibraryGameMappingDAO.cs" />
+    <Compile Include="ContentLibraryLabelDAO.cs" />
+    <Compile Include="ContentLibraryVoteMappingDAO.cs" />
+    <Compile Include="ContentScenarioConfigDAO.cs" />
+    <Compile Include="ContentScenarioDAO.cs" />
+    <Compile Include="ContentTypeDAO.cs" />
+    <Compile Include="CustomerCarStyleCompareDAO.cs" />
+    <Compile Include="CustomerCarStyleDAO.cs" />
+    <Compile Include="CustomerDAO.cs" />
+    <Compile Include="CustomerEventChannelDAO.cs" />
+    <Compile Include="CustomerLabelCategoryDAO.cs" />
+    <Compile Include="CustomerLabelDAO.cs" />
+    <Compile Include="CustomerOperationLogDAO.cs" />
+    <Compile Include="CustomerPlateNumberDAO.cs" />
+    <Compile Include="CustomerRequestRecordDAO.cs" />
+    <Compile Include="CustomerShareLogDAO.cs" />
+    <Compile Include="CustomerShareMappingDAO.cs" />
+    <Compile Include="CustomerSubscribeLogDAO.cs" />
+    <Compile Include="CustomerViolationRecordDAO.cs" />
+    <Compile Include="EventApplyDAO.cs" />
+    <Compile Include="EventApplyResultDAO.cs" />
+    <Compile Include="EventChannelDAO.cs" />
+    <Compile Include="EventChannelQrcodeDAO.cs" />
+    <Compile Include="EventDAO.cs" />
+    <Compile Include="EventGameAwardsDAO.cs" />
+    <Compile Include="EventGameMappingDAO.cs" />
+    <Compile Include="EventGameResultDAO.cs" />
+    <Compile Include="EventLabelDAO.cs" />
+    <Compile Include="EventVoteMappingDAO.cs" />
+    <Compile Include="GameAwardsDAO.cs" />
+    <Compile Include="GameDAO.cs" />
+    <Compile Include="InformationDAO.cs" />
+    <Compile Include="InformationTypeDAO.cs" />
+    <Compile Include="LabelCategoryConfigDAO.cs" />
+    <Compile Include="LabelCategoryDAO.cs" />
+    <Compile Include="LabelDAO.cs" />
+    <Compile Include="LabelTypeDAO.cs" />
+    <Compile Include="MaintenanceOrderDAO.cs" />
+    <Compile Include="MaintenanceOrderDetailDAO.cs" />
+    <Compile Include="MenusDAO.cs" />
+    <Compile Include="MessageRemindDAO.cs" />
+    <Compile Include="ObjectImagesDAO.cs" />
+    <Compile Include="PowersDAO.cs" />
+    <Compile Include="PropertyDAO.cs" />
+    <Compile Include="PropertyLookupDAO.cs" />
+    <Compile Include="PropertyValueDAO.cs" />
+    <Compile Include="QuesAnswerDAO.cs" />
+    <Compile Include="QuesOptionDAO.cs" />
+    <Compile Include="QuesQuestionDAO.cs" />
+    <Compile Include="QuestionnaireDAO.cs" />
+    <Compile Include="RedeemCodeCustomerDAO.cs" />
+    <Compile Include="RedeemCodeDAO.cs" />
+    <Compile Include="RegionDAO.cs" />
+    <Compile Include="RepairOrderDAO.cs" />
+    <Compile Include="Report\ReportDAO.cs" />
+    <Compile Include="RolePowersDAO.cs" />
+    <Compile Include="RolesDAO.cs" />
+    <Compile Include="RoleUsersDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\ConfigInfo.cs" />
+    <Compile Include="ServiceAskPriceDAO.cs" />
+    <Compile Include="ServiceConfigDAO.cs" />
+    <Compile Include="ServiceConsultDAO.cs" />
+    <Compile Include="ServiceCustomerMappingDAO.cs" />
+    <Compile Include="ServiceImageDAO.cs" />
+    <Compile Include="ServiceKeywordReplyDAO.cs" />
+    <Compile Include="ServiceLastAcceptDAO.cs" />
+    <Compile Include="ServiceLinkDAO.cs" />
+    <Compile Include="ServiceLocationDAO.cs" />
+    <Compile Include="ServiceSessionInfoDAO.cs" />
+    <Compile Include="ServiceTextDAO.cs" />
+    <Compile Include="ServiceTransferLogDAO.cs" />
+    <Compile Include="ServiceVideoDAO.cs" />
+    <Compile Include="ServiceVoiceDAO.cs" />
+    <Compile Include="ServiceWaitQueueDAO.cs" />
+    <Compile Include="SystemNoticeDAO.cs" />
+    <Compile Include="TestDriveOrderDAO.cs" />
+    <Compile Include="UsersDAO.cs" />
+    <Compile Include="ViolationCityDAO.cs" />
+    <Compile Include="ViolationProvinceDAO.cs" />
+    <Compile Include="ViolationQueryLogDAO.cs" />
+    <Compile Include="VoteDAO.cs" />
+    <Compile Include="VoteOptionDAO.cs" />
+    <Compile Include="VoteResultDAO.cs" />
+    <Compile Include="WApplicationDAO.cs" />
+    <Compile Include="WAutoReplyDAO.cs" />
+    <Compile Include="WKeywordRecordDAO.cs" />
+    <Compile Include="WKeywordReplyDAO.cs" />
+    <Compile Include="WMassSendRecordDAO.cs" />
+    <Compile Include="WMenuDAO.cs" />
+    <Compile Include="WNewsDAO.cs" />
+    <Compile Include="WNewsMappingDAO.cs" />
+    <Compile Include="WSubscriptionReplyDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YunChee.Volkswagen.Common\Yunchee.Volkswagen.Common.csproj">
+      <Project>{8aa47156-3a05-4f34-a98c-929d75275a46}</Project>
+      <Name>Yunchee.Volkswagen.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YunChee.Volkswagen.Utility\Yunchee.Volkswagen.Utility.csproj">
+      <Project>{1DFD5C01-71C0-41D9-82E4-CABA22331835}</Project>
+      <Name>Yunchee.Volkswagen.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YunChee.Volkswagen.Entity\Yunchee.Volkswagen.Entity.csproj">
+      <Project>{CD53855E-4C30-4F95-9561-F8782FA9FE3A}</Project>
+      <Name>Yunchee.Volkswagen.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

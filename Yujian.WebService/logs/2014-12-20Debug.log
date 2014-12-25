@@ -1,0 +1,128 @@
+<Log>
+<Date>2014-12-20 00:11:10 035</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:23 639</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:33 647</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:47 253</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:50 623</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:52 603</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:54 273</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:56 633</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 97
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Message>
+		PreDrawLottery: {"OpenID":"obbEAj1sXp06eR1GOrbb_VgIQ7yY"}
+	</Message>
+</Content>
+</Log>
+

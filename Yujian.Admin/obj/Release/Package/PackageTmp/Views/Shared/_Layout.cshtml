@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div class="page">
+        <div id="header">
+            <div >
+                <h1>后台管理</h1>
+            </div>
+            <div id="menucontainer">
+                <ul id="menu">
+                    @if (Session["Login"] != null && Session["Login"].ToString() == "true")
+                    {
+                        <li>@Html.ActionLink("用户信息", "Index", "Home")</li>
+                        <li>@Html.ActionLink("IP访问记录", "About", "Home")</li>
+                        <li>@Html.ActionLink("中奖用户列表", "Lottery", "Home")</li>
+                        <li>@Html.ActionLink("礼盒用户列表", "DrawAll", "Home")</li>
+                    }
+                    else
+                    {
+                        <li><a href="#">用户信息</a></li>
+                        <li><a href="#">IP访问记录</a></li>
+                        <li><a href="#">中奖用户列表</a></li>
+                        <li><a href="#">礼盒用户列表</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>

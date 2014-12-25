@@ -1,0 +1,13 @@
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.DataAccess.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.DataAccess.pdb
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Common.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Entity.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Utility.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\log4net.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Newtonsoft.Json.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Common.pdb
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Utility.pdb
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\bin\Debug\Yunchee.Volkswagen.Entity.pdb
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\obj\Debug\Yunchee.Volkswagen.DataAccess.csprojResolveAssemblyReference.cache
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\obj\Debug\Yunchee.Volkswagen.DataAccess.dll
+D:\yunchee\Code\YunChee.Volkswagen.DataAccess\obj\Debug\Yunchee.Volkswagen.DataAccess.pdb

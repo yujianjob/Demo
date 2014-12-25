@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{940151C8-8AF2-4147-BC81-706E6A695A46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YuJian.WeiXin.BLL</RootNamespace>
+    <AssemblyName>YuJian.WeiXin.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\ReferenceDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.8.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferenceDll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicDataBLL.cs" />
+    <Compile Include="CodeGeneration\BasicDataBLL.cs" />
+    <Compile Include="CodeGeneration\CustomerBLL.cs" />
+    <Compile Include="CodeGeneration\CustomerPrizeMappingBLL.cs" />
+    <Compile Include="CodeGeneration\DrawAllBLL.cs" />
+    <Compile Include="CodeGeneration\PrizeBLL.cs" />
+    <Compile Include="CodeGeneration\QualificationBLL.cs" />
+    <Compile Include="CodeGeneration\UserInfoBLL.cs" />
+    <Compile Include="CodeGeneration\VisitIPBLL.cs" />
+    <Compile Include="CodeGeneration\WApplicationBLL.cs" />
+    <Compile Include="CustomerBLL.cs" />
+    <Compile Include="CustomerPrizeMappingBLL.cs" />
+    <Compile Include="DrawAllBLL.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="PrizeBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualificationBLL.cs" />
+    <Compile Include="UserInfoBLL.cs" />
+    <Compile Include="VisitIPBLL.cs" />
+    <Compile Include="WApplicationBLL.cs" />
+    <Compile Include="Weixin\Base\BaseBLL.cs" />
+    <Compile Include="Weixin\Base\CertificationBLL.cs" />
+    <Compile Include="Weixin\Base\ServiceBLL.cs" />
+    <Compile Include="Weixin\Base\SubscriptionBLL.cs" />
+    <Compile Include="Weixin\Common\CommonBLL.cs" />
+    <Compile Include="Weixin\Common\EventLogicBLL.cs" />
+    <Compile Include="Weixin\Common\WeiXinBLL.cs" />
+    <Compile Include="Weixin\Const\EventType.cs" />
+    <Compile Include="Weixin\Const\MsgType.cs" />
+    <Compile Include="Weixin\Enum\MediaType.cs" />
+    <Compile Include="Weixin\Factory\CertificationFactory.cs" />
+    <Compile Include="Weixin\Factory\ServiceFactory.cs" />
+    <Compile Include="Weixin\Factory\SubscriptionFactory.cs" />
+    <Compile Include="Weixin\Interface\IFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yujian.DLL\YuJian.WeiXin.DataAccess.csproj">
+      <Project>{a8986023-fbc7-473f-af54-1a7a7e1aef88}</Project>
+      <Name>YuJian.WeiXin.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yujian.Entity\YuJian.WeiXin.Entity.csproj">
+      <Project>{1813f991-e560-4d59-8db1-f981eb2d4da3}</Project>
+      <Name>YuJian.WeiXin.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YunChee.Volkswagen.Common\Yunchee.Volkswagen.Common.csproj">
+      <Project>{8aa47156-3a05-4f34-a98c-929d75275a46}</Project>
+      <Name>Yunchee.Volkswagen.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YunChee.Volkswagen.Utility\Yunchee.Volkswagen.Utility.csproj">
+      <Project>{1dfd5c01-71c0-41d9-82e4-caba22331835}</Project>
+      <Name>Yunchee.Volkswagen.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

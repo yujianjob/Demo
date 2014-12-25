@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuJian.WeiXin.BLL", "Yujian.BLL\YuJian.WeiXin.BLL.csproj", "{940151C8-8AF2-4147-BC81-706E6A695A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuJian.WeiXin.DataAccess", "Yujian.DLL\YuJian.WeiXin.DataAccess.csproj", "{A8986023-FBC7-473F-AF54-1A7A7E1AEF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuJian.WeiXin.Entity", "Yujian.Entity\YuJian.WeiXin.Entity.csproj", "{1813F991-E560-4D59-8DB1-F981EB2D4DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yujian.WebService", "Yujian.WebService\Yujian.WebService.csproj", "{9834668E-B12B-425A-85DE-9F827364095C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yunchee.Volkswagen.Utility", "YunChee.Volkswagen.Utility\Yunchee.Volkswagen.Utility.csproj", "{1DFD5C01-71C0-41D9-82E4-CABA22331835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yunchee.Volkswagen.Common", "YunChee.Volkswagen.Common\Yunchee.Volkswagen.Common.csproj", "{8AA47156-3A05-4F34-A98C-929D75275A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yujian.Admin", "Yujian.Admin\Yujian.Admin.csproj", "{55F72672-55BB-4BA6-89A7-137A644E1FC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940151C8-8AF2-4147-BC81-706E6A695A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940151C8-8AF2-4147-BC81-706E6A695A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940151C8-8AF2-4147-BC81-706E6A695A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940151C8-8AF2-4147-BC81-706E6A695A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8986023-FBC7-473F-AF54-1A7A7E1AEF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8986023-FBC7-473F-AF54-1A7A7E1AEF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8986023-FBC7-473F-AF54-1A7A7E1AEF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8986023-FBC7-473F-AF54-1A7A7E1AEF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1813F991-E560-4D59-8DB1-F981EB2D4DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1813F991-E560-4D59-8DB1-F981EB2D4DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1813F991-E560-4D59-8DB1-F981EB2D4DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1813F991-E560-4D59-8DB1-F981EB2D4DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9834668E-B12B-425A-85DE-9F827364095C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9834668E-B12B-425A-85DE-9F827364095C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9834668E-B12B-425A-85DE-9F827364095C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9834668E-B12B-425A-85DE-9F827364095C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFD5C01-71C0-41D9-82E4-CABA22331835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFD5C01-71C0-41D9-82E4-CABA22331835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFD5C01-71C0-41D9-82E4-CABA22331835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFD5C01-71C0-41D9-82E4-CABA22331835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA47156-3A05-4F34-A98C-929D75275A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA47156-3A05-4F34-A98C-929D75275A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA47156-3A05-4F34-A98C-929D75275A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA47156-3A05-4F34-A98C-929D75275A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F72672-55BB-4BA6-89A7-137A644E1FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F72672-55BB-4BA6-89A7-137A644E1FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F72672-55BB-4BA6-89A7-137A644E1FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F72672-55BB-4BA6-89A7-137A644E1FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

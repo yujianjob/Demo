@@ -1,0 +1,544 @@
+<Log>
+<Date>2014-12-20 00:11:13 416</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 446
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\CodeGeneration\QualificationBLL.cs  行号 219
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 107
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0817959</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:16 324</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 50
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 127
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0944605</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:27 265</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 446
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\CodeGeneration\QualificationBLL.cs  行号 219
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 107
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0843228</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:28 747</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 50
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 127
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0725403</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:35 900</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 446
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\CodeGeneration\QualificationBLL.cs  行号 219
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 107
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0748022</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:11:38 453</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 f:\WeiXin\WeiXin(3)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 50
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 127
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0829970</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:47 653</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 445
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 108
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0638071</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:47 733</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 599
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 86
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0644364</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:47 823</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 433
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 525
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 132
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0653526</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0  and [Openid]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Enable]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:50 683</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 445
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 108
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0665597</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:50 753</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 599
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 86
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0677272</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:50 823</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 433
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 525
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 132
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0677543</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0  and [Openid]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Enable]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:52 673</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 445
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 108
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0663835</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:52 733</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 599
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 86
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0642358</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:52 803</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 433
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 525
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 132
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0668993</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0  and [Openid]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Enable]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:54 343</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 445
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 108
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0651804</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:54 403</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 599
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 86
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0666213</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:54 473</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 433
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 525
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 132
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0640539</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0  and [Openid]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Enable]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:56 703</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 445
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 537
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 108
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0669799</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [qualification] where isdelete=0  and [WxOpenID]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Type]=1 and [EnableFlag]=1
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:56 763</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\QualificationDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 599
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 622
+	  在类 YuJian.WeiXin.DataAccess.QualificationDAO  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\QualificationDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.QualificationBLL  方法 QueryEnableQualificationByCurrentTime  位置 f:\WeiXin\WeiXin(3)\Yujian.BLL\QualificationBLL.cs  行号 39
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 86
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0654640</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.qualification WHERE CONVERT(VARCHAR(10),UtilityDate,112)
+		                            = CONVERT(VARCHAR(10),GETDATE(),112)
+		                            AND EnableFlag=1 and WxOpenID='obbEAj1sXp06eR1GOrbb_VgIQ7yY'
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-20 00:15:56 833</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.WebService.Interface.Data.Page_Load</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 341
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin1219\WeiXin(2)\WeiXin\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Query  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 433
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 QueryByEntity  位置 f:\WeiXin\WeiXin(3)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 525
+	  在类 Yujian.WebService.Interface.InterfaceHandler  方法 PreDrawLottery  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\InterfaceHandler.ashx.cs  行号 132
+	  在类 Yujian.WebService.Interface.Data  方法 Page_Load  位置 f:\WeiXin\WeiXin(3)\Yujian.WebService\Interface\Data.aspx.cs  行号 28
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0644315</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0  and [Openid]='obbEAj1sXp06eR1GOrbb_VgIQ7yY' and [Enable]=1
+	</Command_Text>
+</Content>
+</Log>
+

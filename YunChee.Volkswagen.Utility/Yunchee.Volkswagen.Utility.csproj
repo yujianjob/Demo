@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DFD5C01-71C0-41D9-82E4-CABA22331835}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yunchee.Volkswagen.Utility</RootNamespace>
+    <AssemblyName>Yunchee.Volkswagen.Utility</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\ReferenceDll\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="C5, Version=1.1.0.0, Culture=neutral, PublicKeyToken=06a1b38866503b69, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferenceDll\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\ReferenceDll\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferenceDll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\ReferenceDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Memcached.ClientLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42c0400964dcc297, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReferenceDll\Memcached.ClientLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ReferenceDll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\ReferenceDll\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicUserInfo.cs" />
+    <Compile Include="CommonUtils.cs" />
+    <Compile Include="DataAccess\BaseDAO.cs" />
+    <Compile Include="DataAccess\BaseOracleDAO.cs" />
+    <Compile Include="DataAccess\ConnectionString.cs" />
+    <Compile Include="DataAccess\DbCommandExecutionEventArgs.cs" />
+    <Compile Include="DataAccess\DefaultConnectionStringManager.cs" />
+    <Compile Include="DataAccess\DefaultOracleHelper.cs" />
+    <Compile Include="DataAccess\DefaultSQLHelper.cs" />
+    <Compile Include="DataAccess\DirectConnectionStringManager.cs" />
+    <Compile Include="DataAccess\IConnectionStringManager.cs" />
+    <Compile Include="DataAccess\ICRUDable.cs" />
+    <Compile Include="DataAccess\IQueryable.cs" />
+    <Compile Include="DataAccess\ISQLHelper.cs" />
+    <Compile Include="DataAccess\OracleCommandExecutionEventArgs.cs" />
+    <Compile Include="DataAccess\PagedQueryObjectResult.cs" />
+    <Compile Include="DataAccess\PagedQueryResult.cs" />
+    <Compile Include="DataAccess\Query\ComplexCondition.cs" />
+    <Compile Include="DataAccess\Query\DateTimeAccuracys.cs" />
+    <Compile Include="DataAccess\Query\DirectCondition.cs" />
+    <Compile Include="DataAccess\Query\EqualsCondition.cs" />
+    <Compile Include="DataAccess\Query\InCondition.cs" />
+    <Compile Include="DataAccess\Query\IsNullCondition.cs" />
+    <Compile Include="DataAccess\Query\IWhereCondition.cs" />
+    <Compile Include="DataAccess\Query\LessThanCondition.cs" />
+    <Compile Include="DataAccess\Query\LikeCondition.cs" />
+    <Compile Include="DataAccess\Query\LogicalOperators.cs" />
+    <Compile Include="DataAccess\Query\MoreThanCondition.cs" />
+    <Compile Include="DataAccess\Query\OrderBy.cs" />
+    <Compile Include="DataAccess\Query\OrderByDirections.cs" />
+    <Compile Include="DataAccess\Query\WhereConditions.cs" />
+    <Compile Include="DataAccess\SqlCommandExecutionEventArgs.cs" />
+    <Compile Include="DataTableToObject.cs" />
+    <Compile Include="Entity\BaseEntity.cs" />
+    <Compile Include="Entity\IEntity.cs" />
+    <Compile Include="Entity\IExtensionable.cs" />
+    <Compile Include="Entity\PersistenceEntityException.cs" />
+    <Compile Include="Entity\PersistenceHandle.cs" />
+    <Compile Include="Entity\PersistenceStatus.cs" />
+    <Compile Include="ExtensionMethod\ArrayExtension.cs" />
+    <Compile Include="Log\ObjectRenderers\DatabaseLogInfoRenderer.cs" />
+    <Compile Include="Log\ObjectRenderers\DebugLogInfoRenderer.cs" />
+    <Compile Include="Log\ObjectRenderers\ExceptionLogInfoRenderer.cs" />
+    <Compile Include="Log\ObjectRenderers\MailLogInfoRenderer.cs" />
+    <Compile Include="Msmq\ExtensionMethod\BooleanExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\CharExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\DateTimeExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\EnumExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\GenericsExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\GroupResult.cs" />
+    <Compile Include="Msmq\ExtensionMethod\GuidExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\HttpContextExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\IEnumerableExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\ObjectExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\OrderOptions.cs" />
+    <Compile Include="Msmq\ExtensionMethod\PageExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\SqlCommandExtensionMethods.cs.cs" />
+    <Compile Include="Msmq\ExtensionMethod\StringArrayExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\StringExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\TypeExtensionMethods.cs" />
+    <Compile Include="Msmq\ExtensionMethod\XMLExtensionMethods.cs" />
+    <Compile Include="ExtensionMethod\TransformExtension.cs" />
+    <Compile Include="Log\FixedSizeQueue.cs" />
+    <Compile Include="Log\DefaultLogger.cs" />
+    <Compile Include="Log\IJITLogger.cs" />
+    <Compile Include="Log\Loggers.cs" />
+    <Compile Include="Log\LogInfoes\BaseLogInfo.cs" />
+    <Compile Include="Log\LogInfoes\DatabaseLogInfo.cs" />
+    <Compile Include="Log\LogInfoes\DebugLogInfo.cs" />
+    <Compile Include="Log\LogInfoes\ExceptionLogInfo.cs" />
+    <Compile Include="Msmq\Base\BaseMSMQ.cs" />
+    <Compile Include="Msmq\Base\IMessageConfig.cs" />
+    <Compile Include="Msmq\Base\IMSMQ.cs" />
+    <Compile Include="Msmq\Builder\MsmqBulder.cs" />
+    <Compile Include="Msmq\Config\MessageConfig.cs" />
+    <Compile Include="Msmq\LogMsmq.cs" />
+    <Compile Include="Log\SystemRuntimeInfo.cs" />
+    <Compile Include="Log\YunCheeException.cs" />
+    <Compile Include="MD5Helper.cs" />
+    <Compile Include="Notification\FromSetting.cs" />
+    <Compile Include="Notification\Mail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Log\ReflectionUtils.cs" />
+    <Compile Include="Log\StackTraceInfo.cs" />
+    <Compile Include="DataAccess\StringUtils.cs" />
+    <Compile Include="Log\SystemUtils.cs" />
+    <Compile Include="Log\TSQL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Log\loggers.xml" />
+    <EmbeddedResource Include="Log\loggersRollingBySize.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YunChee.Volkswagen.Common\Yunchee.Volkswagen.Common.csproj">
+      <Project>{8aa47156-3a05-4f34-a98c-929d75275a46}</Project>
+      <Name>Yunchee.Volkswagen.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

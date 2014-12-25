@@ -1,0 +1,10 @@
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yujian.Entity.dll
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yujian.Entity.pdb
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yunchee.Volkswagen.Utility.dll
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\log4net.dll
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yunchee.Volkswagen.Common.dll
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yunchee.Volkswagen.Utility.pdb
+F:\WeiXin\WeiXin\Yujian.Entity\bin\Debug\Yunchee.Volkswagen.Common.pdb
+F:\WeiXin\WeiXin\Yujian.Entity\obj\Debug\Yujian.Entity.csprojResolveAssemblyReference.cache
+F:\WeiXin\WeiXin\Yujian.Entity\obj\Debug\Yujian.Entity.dll
+F:\WeiXin\WeiXin\Yujian.Entity\obj\Debug\Yujian.Entity.pdb

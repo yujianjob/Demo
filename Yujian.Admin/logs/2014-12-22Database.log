@@ -1,0 +1,245 @@
+<Log>
+<Date>2014-12-22 14:44:43 682</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 46
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0406503</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 14:44:45 025</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Lottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 192
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerPrizeMappingBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Lottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 164
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0329262</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 14:44:59 356</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.DelteLottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 GetByID  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 169
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 GetByID  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerPrizeMappingBLL.cs  行号 76
+	  在类 Yujian.Admin.Controllers.HomeController  方法 DelteLottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 176
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0482358</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [CustomerPrizeMapping] where ID='76' and IsDelete=0 
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 14:45:01 499</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.DelteLottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteNonQuery  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 211
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Delete  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 332
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Delete  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 306
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 Delete  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 288
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 Delete  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerPrizeMappingBLL.cs  行号 124
+	  在类 Yujian.Admin.Controllers.HomeController  方法 DelteLottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 177
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0416323</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		update [CustomerPrizeMapping] set LastUpdateTime='2014/12/22 14:45:01',LastUpdateBy=0,IsDelete=1 where ID='76';
+		
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:24 420</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 46
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0201729</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:25 685</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Lottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 613
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CustomerPrizeMappingDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CustomerPrizeMappingBLL.cs  行号 39
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Lottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 162
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0279293</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.CustomerPrizeMapping 
+		WHERE Enable=1 OR EXISTS (SELECT 1 FROM dbo.DrawAll WHERE CustomerPrizeMapping.Openid=dbo.DrawAll.Openid)
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:27 243</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.DrawAll</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.UserInfoDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\UserInfoDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.UserInfoDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\UserInfoDAO.cs  行号 194
+	  在类 YuJian.WeiXin.BLL.UserInfoBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\UserInfoBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 DrawAll  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 230
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0244238</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [UserInfo] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:28 172</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Lottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 613
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CustomerPrizeMappingDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CustomerPrizeMappingBLL.cs  行号 39
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Lottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 162
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0267613</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.CustomerPrizeMapping 
+		WHERE Enable=1 OR EXISTS (SELECT 1 FROM dbo.DrawAll WHERE CustomerPrizeMapping.Openid=dbo.DrawAll.Openid)
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:28 861</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.About</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.VisitIPDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\VisitIPDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.VisitIPDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\VisitIPDAO.cs  行号 190
+	  在类 YuJian.WeiXin.BLL.VisitIPBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\VisitIPBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 About  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 144
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0228496</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [VisitIP] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-22 16:03:29 918</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Lottery</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerPrizeMappingDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 596
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteDataset  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 613
+	  在类 YuJian.WeiXin.DataAccess.CustomerPrizeMappingDAO  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CustomerPrizeMappingDAO.cs  行号 47
+	  在类 YuJian.WeiXin.BLL.CustomerPrizeMappingBLL  方法 GetLottery  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CustomerPrizeMappingBLL.cs  行号 39
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Lottery  位置 e:\private\WeiXin(3)(1)\Yujian.Admin\Controllers\HomeController.cs  行号 162
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0294960</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		SELECT * FROM dbo.CustomerPrizeMapping 
+		WHERE Enable=1 OR EXISTS (SELECT 1 FROM dbo.DrawAll WHERE CustomerPrizeMapping.Openid=dbo.DrawAll.Openid)
+	</Command_Text>
+</Content>
+</Log>
+
