@@ -30,7 +30,7 @@ namespace Yujian.Admin.Controllers
             return View();
         }
         /// <summary>
-        /// 呵呵
+        /// 呵呵jjj
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
