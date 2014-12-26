@@ -8,24 +8,28 @@
 <body>
     <div class="page">
         <div id="header">
-            <div >
+            <div>
                 <h1>后台管理</h1>
             </div>
             <div id="menucontainer">
                 <ul id="menu">
                     @if (Session["Login"] != null && Session["Login"].ToString() == "true")
                     {
+                        <li>@*@Html.ActionLink("百度统计", "BaiDu", "Home")*@<a href="http://tongji.baidu.com/web/welcome/login?qq-pf-to=pcqq.c2c" target="_blank">百度统计</a> </li>
                         <li>@Html.ActionLink("用户信息", "Index", "Home")</li>
                         <li>@Html.ActionLink("IP访问记录", "About", "Home")</li>
                         <li>@Html.ActionLink("中奖用户列表", "Lottery", "Home")</li>
                         <li>@Html.ActionLink("礼盒用户列表", "DrawAll", "Home")</li>
+                        
                     }
                     else
                     {
+                        <li><a href="#">百度统计</a></li>
                         <li><a href="#">用户信息</a></li>
                         <li><a href="#">IP访问记录</a></li>
                         <li><a href="#">中奖用户列表</a></li>
                         <li><a href="#">礼盒用户列表</a></li>
+                         
                     }
                 </ul>
             </div>

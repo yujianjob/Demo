@@ -1,0 +1,120 @@
+<Log>
+<Date>2014-12-26 11:31:24 536</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 d:\github\Demo\Demo\Yujian.Admin\Controllers\HomeController.cs  行号 56
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0303792</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-26 11:31:26 316</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.DrawAll</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.UserInfoDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\UserInfoDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.UserInfoDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\UserInfoDAO.cs  行号 194
+	  在类 YuJian.WeiXin.BLL.UserInfoBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\UserInfoBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 DrawAll  位置 d:\github\Demo\Demo\Yujian.Admin\Controllers\HomeController.cs  行号 239
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0185675</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [UserInfo] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-26 11:32:39 940</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 d:\github\Demo\Demo\Yujian.Admin\Controllers\HomeController.cs  行号 56
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0211420</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-26 11:34:01 478</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 d:\github\Demo\Demo\Yujian.Admin\Controllers\HomeController.cs  行号 56
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0605824</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+
+<Log>
+<Date>2014-12-26 11:34:16 863</Date>
+<Client_ID>0</Client_ID>
+<User_ID>0</User_ID>
+<Location>Yujian.Admin.Controllers.HomeController.Index</Location>
+<Stack_Trances>
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 SQLHelper_OnExecuted  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 64
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 338
+	  在类 Yunchee.Volkswagen.Utility.DataAccess.DefaultSQLHelper  方法 ExecuteReader  位置 e:\private\WeiXin(3)(1)\YunChee.Volkswagen.Utility\DataAccess\DefaultSQLHelper.cs  行号 362
+	  在类 YuJian.WeiXin.DataAccess.CustomerDAO  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.DLL\CodeGeneration\CustomerDAO.cs  行号 216
+	  在类 YuJian.WeiXin.BLL.CustomerBLL  方法 GetAll  位置 e:\private\WeiXin(3)(1)\Yujian.BLL\CodeGeneration\CustomerBLL.cs  行号 85
+	  在类 Yujian.Admin.Controllers.HomeController  方法 Index  位置 d:\github\Demo\Demo\Yujian.Admin\Controllers\HomeController.cs  行号 56
+</Stack_Trances>
+<Content>
+	<Database_Server>61.155.173.204</Database_Server>
+	<Database_Name>WeiXinData</Database_Name>
+	<Execution_Time>00:00:00.0293004</Execution_Time>
+	<Command_Text>
+		use [WeiXinData];
+		select * from [Customer] where isdelete=0
+	</Command_Text>
+</Content>
+</Log>
+

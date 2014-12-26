@@ -199,6 +199,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Lottery.cshtml" />
     <Content Include="Views\Home\DrawAll.cshtml" />
+    <Content Include="Views\Home\BaiDu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

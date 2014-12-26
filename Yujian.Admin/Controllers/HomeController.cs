@@ -14,10 +14,16 @@ namespace Yujian.Admin.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult BaiDu()
+        {
+            return View();
+        }
+
         public ActionResult Login()
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult Login(string userName, string userPwd)
         {

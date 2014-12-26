@@ -64,3 +64,14 @@ E:\private\WeiXin(3)(1)\Yujian.Entity\bin\Release\Yunchee.Volkswagen.Common.pdb
 E:\private\WeiXin(3)(1)\Yujian.Entity\obj\Release\YuJian.WeiXin.Entity.csprojResolveAssemblyReference.cache
 E:\private\WeiXin(3)(1)\Yujian.Entity\obj\Release\Yujian.Entity.dll
 E:\private\WeiXin(3)(1)\Yujian.Entity\obj\Release\Yujian.Entity.pdb
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yujian.Entity.dll
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yujian.Entity.pdb
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yunchee.Volkswagen.Utility.dll
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\log4net.dll
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yunchee.Volkswagen.Common.dll
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Newtonsoft.Json.dll
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yunchee.Volkswagen.Utility.pdb
+D:\github\Demo\Demo\Yujian.Entity\bin\Release\Yunchee.Volkswagen.Common.pdb
+D:\github\Demo\Demo\Yujian.Entity\obj\Release\YuJian.WeiXin.Entity.csprojResolveAssemblyReference.cache
+D:\github\Demo\Demo\Yujian.Entity\obj\Release\Yujian.Entity.dll
+D:\github\Demo\Demo\Yujian.Entity\obj\Release\Yujian.Entity.pdb

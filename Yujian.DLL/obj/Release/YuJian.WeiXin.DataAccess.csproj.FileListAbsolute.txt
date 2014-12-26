@@ -76,3 +76,16 @@ E:\private\WeiXin(3)(1)\Yujian.DLL\bin\Release\Yunchee.Volkswagen.Common.pdb
 E:\private\WeiXin(3)(1)\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.csprojResolveAssemblyReference.cache
 E:\private\WeiXin(3)(1)\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.dll
 E:\private\WeiXin(3)(1)\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.pdb
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\YuJian.WeiXin.DataAccess.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\YuJian.WeiXin.DataAccess.pdb
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yujian.Entity.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yunchee.Volkswagen.Utility.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\log4net.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yunchee.Volkswagen.Common.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Newtonsoft.Json.dll
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yujian.Entity.pdb
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yunchee.Volkswagen.Utility.pdb
+D:\github\Demo\Demo\Yujian.DLL\bin\Release\Yunchee.Volkswagen.Common.pdb
+D:\github\Demo\Demo\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.csprojResolveAssemblyReference.cache
+D:\github\Demo\Demo\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.dll
+D:\github\Demo\Demo\Yujian.DLL\obj\Release\YuJian.WeiXin.DataAccess.pdb

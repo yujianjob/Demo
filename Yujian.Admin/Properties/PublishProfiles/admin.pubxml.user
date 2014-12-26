@@ -48,7 +48,7 @@
       <publishTime>12/18/2014 23:01:53</publishTime>
     </File>
     <File Include="bin/Yujian.Admin.dll">
-      <publishTime>12/22/2014 16:03:59</publishTime>
+      <publishTime>12/26/2014 11:34:35</publishTime>
     </File>
     <File Include="bin/Yujian.Entity.dll">
       <publishTime>12/21/2014 09:58:54</publishTime>
@@ -308,6 +308,9 @@
     <File Include="Views/Home/About.cshtml">
       <publishTime>12/22/2014 10:39:47</publishTime>
     </File>
+    <File Include="Views/Home/BaiDu.cshtml">
+      <publishTime>12/26/2014 11:31:04</publishTime>
+    </File>
     <File Include="Views/Home/DrawAll.cshtml">
       <publishTime>12/22/2014 10:57:05</publishTime>
     </File>
@@ -324,7 +327,7 @@
       <publishTime>12/18/2014 23:01:41</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/22/2014 10:51:14</publishTime>
+      <publishTime>12/26/2014 11:34:14</publishTime>
     </File>
     <File Include="Views/Shared/_LogOnPartial.cshtml">
       <publishTime>12/18/2014 23:01:41</publishTime>
@@ -336,7 +339,7 @@
       <publishTime>12/18/2014 23:01:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/22/2014 16:03:59</publishTime>
+      <publishTime>12/26/2014 11:34:36</publishTime>
     </File>
   </ItemGroup>
 </Project>
