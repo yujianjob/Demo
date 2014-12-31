@@ -44,6 +44,7 @@ namespace Yujian.WebService.Interface
 
                     response.Data = new GetCurrentDataData();
                     response.Data.LotteryNumber = 0;
+                    response.Data.IsShare = 0;
                     response.Data.PrizeInfoList = new List<PrizeInfoEntity>();
 
                     var bll = new QualificationBLL(new BasicUserInfo());
@@ -85,6 +86,12 @@ namespace Yujian.WebService.Interface
                     foreach (var tmp in prizedInfoList)
                     {
                         response.Data.PrizeInfoList.Add(new PrizeInfoEntity() { PrizeID = tmp.PrizeID.Value });
+                    }
+
+                    var isTodayShare = new QualificationBLL(loginInfo).QueryShareQualificationByCurrentTime(request.OpenID);
+                    if (isTodayShare != null && isTodayShare.Tables[0].Rows.Count > 0)
+                    {
+                        response.Data.IsShare = 1;
                     }
                 }
             }
@@ -283,6 +290,7 @@ namespace Yujian.WebService.Interface
                     response.Data = new CompleteDrawLotteryData();
                     response.Data.DrawLotteryResult = 0;
                     response.Data.LotteryNumber = 0;
+                    response.Data.IsShare = 0;
                     response.Data.PrizeInfoList = new List<PrizeInfoEntity>();
                     response.Data.isEndDraw = 0;
                     var bll = new QualificationBLL(new BasicUserInfo());
@@ -295,11 +303,10 @@ namespace Yujian.WebService.Interface
                         {
                             mapping.Enable = 1;
                             new CustomerPrizeMappingBLL(new BasicUserInfo()).Update(mapping);
-
-                            entity.EnableFlag = 0;
-                            bll.Update(entity);
                             response.Data.DrawLotteryResult = mapping.PrizeID.Value;
                         }
+                        entity.EnableFlag = 0;
+                        bll.Update(entity);
                     }
                     else//第N次抽奖
                     {
@@ -314,8 +321,6 @@ namespace Yujian.WebService.Interface
                                 mapping.Enable = 1;
                                 new CustomerPrizeMappingBLL(new BasicUserInfo()).Update(mapping);
 
-                                entity.EnableFlag = 0;
-                                bll.Update(entity);
                                 response.Data.DrawLotteryResult = mapping.PrizeID.Value;
 
                                 var drawAll = new DrawAllBLL(loginInfo).QueryByEntity(new DrawAllEntity { Openid = request.OpenID }, null);
@@ -341,6 +346,8 @@ namespace Yujian.WebService.Interface
                                     }
                                 }
                             }
+                            entity.EnableFlag = 0;
+                            bll.Update(entity);
                         }
                     }
                     var first = bll.QueryByEntity(new QualificationEntity() { Type = 1, EnableFlag = 1, WxOpenID = request.OpenID }, null);
@@ -375,6 +382,13 @@ namespace Yujian.WebService.Interface
 
                     if (response.Data.DrawLotteryResult > 0)
                         response.Data.isEndDraw = response.Data.PrizeInfoList.Count() == 3 ? 1 : 0;
+
+                    var isTodayShare = new QualificationBLL(loginInfo).QueryShareQualificationByCurrentTime(request.OpenID);
+                    if (isTodayShare != null && isTodayShare.Tables[0].Rows.Count > 0)
+                    {
+                        response.Data.IsShare = 1;
+                    }
+
                 }
             }
             catch (Exception ex)
@@ -409,6 +423,7 @@ namespace Yujian.WebService.Interface
 
                     response.Data = new ShareData();
                     response.Data.LotteryNumber = 0;
+                    response.Data.IsShare = 0;
                     response.Data.PrizeInfoList = new List<PrizeInfoEntity>();
                     response.Data.ShareResult = 0;
                     var bll = new QualificationBLL(new BasicUserInfo());
@@ -454,6 +469,12 @@ namespace Yujian.WebService.Interface
                     foreach (var tmp in prizedInfoList)
                     {
                         response.Data.PrizeInfoList.Add(new PrizeInfoEntity() { PrizeID = tmp.PrizeID.Value });
+                    }
+
+                    var isTodayShare = new QualificationBLL(loginInfo).QueryShareQualificationByCurrentTime(request.OpenID);
+                    if (isTodayShare != null && isTodayShare.Tables[0].Rows.Count > 0)
+                    {
+                        response.Data.IsShare = 1;
                     }
                 }
             }

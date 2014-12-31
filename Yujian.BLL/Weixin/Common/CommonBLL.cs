@@ -194,6 +194,51 @@ namespace Yunchee.Volkswagen.BLL.Weixin.Common
         }
 
         #endregion
+
+        #region 回复图文素材
+
+        /// <summary>
+        /// 回复图文素材
+        /// </summary>
+        /// <param name="weixinID">开发者微信号</param>
+        /// <param name="openID">接收方帐号（收到的OpenID）</param>
+        /// <param name="newsList">图文素材实体类集合</param>
+        public void ResponseNewsMessage(string weixinID, string openID, List<Yunchee.Volkswagen.BLL.Weixin.Base.BaseBLL.WNewsEntity> newsList, HttpContext httpContext)
+        {
+            if (newsList != null && newsList.Count > 0)
+            {
+                var response = "<xml>";
+                response += "<ToUserName><![CDATA[" + openID + "]]></ToUserName>";
+                response += "<FromUserName><![CDATA[" + weixinID + "]]></FromUserName>";
+                response += "<CreateTime>" + CommonUtils.ConvertDateTimeInt(DateTime.Now) + "</CreateTime>";
+                response += "<MsgType><![CDATA[news]]></MsgType>";
+                response += "<ArticleCount>" + newsList.Count + "</ArticleCount>";
+                response += "<Articles>";
+
+                foreach (var item in newsList)
+                {
+                    response += "<item>";
+                    response += "<Title><![CDATA[" + item.Title + "]]></Title> ";
+                    response += "<Description><![CDATA[" + item.Description + "]]></Description>";
+                    response += "<PicUrl><![CDATA[" + item.PictureUrl + "]]></PicUrl>";
+                    response += "<Url><![CDATA[" + item.OriginalUrl + "]]></Url>";
+                    response += "</item>";
+                }
+
+                response += "</Articles>";
+                response += "<FuncFlag>1</FuncFlag>";
+                response += "</xml>";
+
+                CommonUtils.WriteLogWeixin("公众平台返回给用户的图文素材:  " + response, weixinID);
+                CommonUtils.WriteLogWeixin("回复图文素材结束-------------------------------------------\n", weixinID);
+
+                httpContext.Response.Write(response);
+            }
+        }
+
+        #endregion
+
+        
         
     }
 }

@@ -14,6 +14,9 @@ namespace YuJian.WeiXin.Entity.Interface.Response
     public class GetCurrentDataData
     {
         public int LotteryNumber { get; set; }
+
+        public int IsShare { get; set; }
+
         /// <summary>
         /// 已中奖集合
         /// </summary>

@@ -53,7 +53,7 @@ namespace Yujian.Admin.Controllers
             //var list=new CustomerBLL(new BasicUserInfo()).PagedQuery(null, new OrderBy[] { new OrderBy() { FieldName = "CreateTime", Direction = OrderByDirections.Asc } }
             //, 10, id.Value);
             //userList = list.Entities.ToList();
-            userList = new CustomerBLL(new BasicUserInfo()).GetAll().ToList();
+            userList = new CustomerBLL(new BasicUserInfo()).GetAll().OrderByDescending(s=>s.CreateTime).ToList();
             PagedList<CustomerEntity> mPage = userList.AsQueryable().ToPagedList(pageIndex, 10);
             mPage.TotalItemCount = userList.Count;
             mPage.CurrentPageIndex = (int)(id ?? 1);
@@ -73,7 +73,7 @@ namespace Yujian.Admin.Controllers
             }
             sbHtml.Append("</tr>");
 
-            var userList = new CustomerBLL(new BasicUserInfo()).GetAll().ToList();
+            var userList = new CustomerBLL(new BasicUserInfo()).GetAll().OrderByDescending(s => s.CreateTime).ToList();
             for (int i = 0; i < userList.Count; i++)
             {
                 sbHtml.Append("<tr>");

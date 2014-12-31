@@ -48,16 +48,16 @@
       <publishTime>12/18/2014 23:01:53</publishTime>
     </File>
     <File Include="bin/Yujian.Admin.dll">
-      <publishTime>12/26/2014 11:34:35</publishTime>
+      <publishTime>12/31/2014 10:02:42</publishTime>
     </File>
     <File Include="bin/Yujian.Entity.dll">
-      <publishTime>12/21/2014 09:58:54</publishTime>
+      <publishTime>12/29/2014 15:20:36</publishTime>
     </File>
     <File Include="bin/YuJian.WeiXin.BLL.dll">
-      <publishTime>12/22/2014 15:40:23</publishTime>
+      <publishTime>12/30/2014 17:05:23</publishTime>
     </File>
     <File Include="bin/YuJian.WeiXin.DataAccess.dll">
-      <publishTime>12/22/2014 15:40:23</publishTime>
+      <publishTime>12/29/2014 15:20:37</publishTime>
     </File>
     <File Include="bin/Yunchee.Volkswagen.Common.dll">
       <publishTime>12/19/2014 16:10:46</publishTime>
@@ -339,7 +339,7 @@
       <publishTime>12/18/2014 23:01:41</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/26/2014 11:34:36</publishTime>
+      <publishTime>12/31/2014 10:03:27</publishTime>
     </File>
   </ItemGroup>
 </Project>

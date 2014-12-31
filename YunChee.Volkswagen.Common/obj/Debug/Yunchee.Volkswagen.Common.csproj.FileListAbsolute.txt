@@ -34,10 +34,10 @@ E:\private\WeiXin(3)(1)\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.C
 E:\private\WeiXin(3)(1)\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.pdb
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\bin\Debug\Yunchee.Volkswagen.Common.dll
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\bin\Debug\Yunchee.Volkswagen.Common.pdb
-D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.csprojResolveAssemblyReference.cache
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.Resources.1V1MessageWords.resources
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.Resources.SuccessCode.resources
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.Resources.SystemErrorCode.resources
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.csproj.GenerateResource.Cache
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.dll
 D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.pdb
+D:\github\Demo\Demo\YunChee.Volkswagen.Common\obj\Debug\Yunchee.Volkswagen.Common.csprojResolveAssemblyReference.cache

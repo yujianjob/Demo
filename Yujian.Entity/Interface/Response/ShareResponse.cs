@@ -17,6 +17,9 @@ namespace YuJian.WeiXin.Entity.Interface.Request
         public int ShareResult { get; set; }
 
         public int LotteryNumber { get; set; }
+
+        public int IsShare { get; set; }
+
         /// <summary>
         /// 已中奖集合
         /// </summary>
