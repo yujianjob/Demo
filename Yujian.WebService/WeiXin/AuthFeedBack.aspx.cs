@@ -382,6 +382,17 @@ namespace Yujian.WebService.WeiXin
                 }
                 #endregion
 
+                //var firstLogin = new QualificationBLL(new BasicUserInfo()).QueryByEntity(new QualificationEntity() { Type = 1, WxOpenID = openId }, null);
+                //if (firstLogin.Length == 0)
+                //{
+                //    var Qentity = new QualificationEntity();
+                //    Qentity.WxID = "gh_0846d6c7c2b8";
+                //    Qentity.WxOpenID = openId;
+                //    Qentity.Type = 1;
+                //    Qentity.EnableFlag = 1;
+                //    new QualificationBLL(new BasicUserInfo()).Create(Qentity);
+                //}
+
                 goUrl = "http://tianrui.efic.com.cn/index.html" 
                         + "?openId=" + openId
                         + "&weixinId=" + weixinId

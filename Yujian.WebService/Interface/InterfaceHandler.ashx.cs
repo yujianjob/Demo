@@ -58,6 +58,18 @@ namespace Yujian.WebService.Interface
                         entity.EnableFlag = 1;
                         bll.Create(entity);
                     }
+                    var dailyShare = bll.QueryShareQualificationByCurrentTime(request.OpenID);
+                    if (dailyShare.Tables[0].Rows.Count == 0)
+                    {
+                        var entity = new QualificationEntity();
+                        entity.WxID = "gh_0846d6c7c2b8";
+                        entity.WxOpenID = request.OpenID;
+                        entity.Type = 2;
+                        entity.EnableFlag = 1;
+                        entity.UtilityDate = DateTime.Now;
+                        bll.Create(entity);
+                    }
+
                     var first = bll.QueryByEntity(new QualificationEntity() { Type = 1, EnableFlag = 1, WxOpenID = request.OpenID }, null);
                     if (first.Length > 0)
                         response.Data.LotteryNumber += 1;

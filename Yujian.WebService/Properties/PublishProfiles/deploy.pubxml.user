@@ -20,10 +20,10 @@
       <publishTime>12/29/2014 15:20:36</publishTime>
     </File>
     <File Include="bin/Yujian.WebService.dll">
-      <publishTime>12/30/2014 17:05:24</publishTime>
+      <publishTime>01/09/2015 10:59:01</publishTime>
     </File>
     <File Include="bin/YuJian.WeiXin.BLL.dll">
-      <publishTime>12/30/2014 17:05:23</publishTime>
+      <publishTime>01/06/2015 11:12:09</publishTime>
     </File>
     <File Include="bin/YuJian.WeiXin.DataAccess.dll">
       <publishTime>12/29/2014 15:20:37</publishTime>
@@ -41,7 +41,7 @@
       <publishTime>12/13/2014 23:07:55</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/30/2014 17:05:24</publishTime>
+      <publishTime>01/09/2015 10:59:01</publishTime>
     </File>
     <File Include="WeiXin/Admin.aspx">
       <publishTime>12/19/2014 11:35:47</publishTime>
