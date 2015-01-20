@@ -27,12 +27,10 @@ namespace Yujian.WebService.Interface
         public string GetCurrentData()
         {
             string content = string.Empty;
-
+            string reqContent = HttpContext.Current.Request["ReqContent"];
             var response = new GetCurrentDataResponse();
             try
             {
-                string reqContent = HttpContext.Current.Request["ReqContent"];
-
                 if (!string.IsNullOrEmpty(reqContent))
                 {
                     var request = reqContent.DeserializeJSONTo<GetCurrentDataRequest>();
@@ -78,7 +76,7 @@ namespace Yujian.WebService.Interface
                         response.Data.LotteryNumber += 1;
 
                     int mapping1 = 0, mapping2 = 0, mapping3 = 0;
-                    var drawAll = new DrawAllBLL(loginInfo).QueryByEntity(new DrawAllEntity { Openid = request.OpenID }, null);
+                    var drawAll = new DrawAllBLL(loginInfo).QueryByEntity(new DrawAllEntity { Openid = request.OpenID,Flag=1 }, null);
                     if (drawAll.Length > 0)
                     {
                         mapping1 = drawAll.FirstOrDefault().Mapping1ID.Value;
@@ -116,17 +114,22 @@ namespace Yujian.WebService.Interface
             }
 
             content = response.ToJSON();
+
+            Loggers.Debug(new DebugLogInfo()
+            {
+                Message = string.Format("ResponseGetCurrentData: request{0}--{1}", reqContent, content)
+            });
             return content;
         }
 
         public string PreDrawLottery()
         {
             string content = string.Empty;
-
+            string reqContent = HttpContext.Current.Request["ReqContent"];
             var response = new PreDrawLotteryResponse();
             try
             {
-                string reqContent = HttpContext.Current.Request["ReqContent"];
+
 
                 if (!string.IsNullOrEmpty(reqContent))
                 {
@@ -278,17 +281,22 @@ namespace Yujian.WebService.Interface
             }
 
             content = response.ToJSON();
+
+            Loggers.Debug(new DebugLogInfo()
+            {
+                Message = string.Format("ResponsePreDrawLottery: request{0}--{1}", reqContent, content)
+            });
             return content;
         }
 
         public string CompleteDrawLottery()
         {
             string content = string.Empty;
-
+            string reqContent = HttpContext.Current.Request["ReqContent"];
             var response = new CompleteDrawLotteryReponse();
             try
             {
-                string reqContent = HttpContext.Current.Request["ReqContent"];
+
 
                 if (!string.IsNullOrEmpty(reqContent))
                 {
@@ -412,17 +420,21 @@ namespace Yujian.WebService.Interface
             }
 
             content = response.ToJSON();
+            Loggers.Debug(new DebugLogInfo()
+            {
+                Message = string.Format("ResponseCompleteDrawLottery: request{0}--{1}", reqContent, content)
+            });
             return content;
         }
 
         public string Share()
         {
             string content = string.Empty;
-
+            string reqContent = HttpContext.Current.Request["ReqContent"];
             var response = new ShareResponse();
             try
             {
-                string reqContent = HttpContext.Current.Request["ReqContent"];
+               
 
                 if (!string.IsNullOrEmpty(reqContent))
                 {
@@ -499,17 +511,21 @@ namespace Yujian.WebService.Interface
             }
 
             content = response.ToJSON();
+            Loggers.Debug(new DebugLogInfo()
+            {
+                Message = string.Format("ResponseShare: request{0}--{1}", reqContent, content)
+            });
             return content;
         }
 
         public string SubmitInfo()
         {
             string content = string.Empty;
-
+            string reqContent = HttpContext.Current.Request["ReqContent"];
             var response = new SubmitInfoResponse();
             try
             {
-                string reqContent = HttpContext.Current.Request["ReqContent"];
+                
 
                 if (!string.IsNullOrEmpty(reqContent))
                 {
@@ -567,6 +583,11 @@ namespace Yujian.WebService.Interface
             }
 
             content = response.ToJSON();
+
+            Loggers.Debug(new DebugLogInfo()
+            {
+                Message = string.Format("ResponseGetSubmitInfo: request{0}--{1}", reqContent, content)
+            });
             return content;
         }
 
